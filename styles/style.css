@@ -52,7 +52,6 @@ a {
   bottom: 0;
   right: 0;
   position: absolute;
-  background-image: url(../Images/two_again.png);
   background-size: cover;
   z-index: 1;
 }
