@@ -181,6 +181,10 @@
   margin-bottom: 20px;
 }
 
+.table__text:last-child {
+  margin-bottom: 0;
+}
+
 .feynman {
   display: flex;
   align-items: center;
