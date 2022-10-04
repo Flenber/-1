@@ -10,7 +10,6 @@
   max-width: 388px;
   bottom: 30px;
   position: absolute;
-  z-index: 2;
   transition: transform 1s ease-out;
 }
 
