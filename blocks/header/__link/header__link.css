@@ -1,0 +1,21 @@
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+  z-index: 2;
+  margin: 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  left: 130px;
+  max-width: 388px;
+  bottom: 30px;
+  position: absolute;
+  z-index: 2;
+  transition: transform 1s ease-out;
+}
+
+.header__link:hover {
+  transform: translate(10px, 0);
+  transition: transform 1s ease-out;
+  opacity: 0.8;
+}
