@@ -6,9 +6,8 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  left: 130px;
+  left: 70px;
   max-width: 388px;
-  bottom: 30px;
   position: absolute;
   transition: transform 1s ease-out;
 }

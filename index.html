@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body class="page">
     <header class="header">
@@ -17,13 +17,13 @@
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
+        <a class="header__link" href="#">Узнать &rarr; </a>
       </p>
-      <a class="header__link" href="#">Узнать &rarr; </a>
       <img
         class="header__main-illustration"
         src="./images/two_again.png"
         alt="Опять два">
-      <div class="header__square-pic"></div>
+      <div class="rotation header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -52,57 +52,57 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <ul class="card">
-          <li class="card__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img
-              class="card__image"
+              class="cards__image"
               src="./images/cards-attention.png"
               alt="Два вида внимания">
-            <h3 class="card__title">Два вида внимания</h3>
-            <p class="card__description">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">
               Глубокие знания возникают, если чередовать сфокусированное и
               рассеянное мышление.
             </p>
           </li>
-          <li class="card__item">
+          <li class="cards__item">
             <img
-              class="card__image"
+              class="cards__image"
               src="./images/cards-recall.png"
               alt="Вспоминайте изученное">
-            <h3 class="card__title">Recall</h3>
-            <p class="card__description">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">
               Вспоминайте изученное — это позволит соединить разрозненные порции
               памяти.
             </p>
           </li>
-          <li class="card__item">
+          <li class="cards__item">
             <img
-              class="card__image"
+              class="cards__image"
               src="./images/cards-interliving.png"
               alt="Интерливинг">
-            <h3 class="card__title">Интерливинг</h3>
-            <p class="card__description">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
           </li>
-          <li class="card__item">
+          <li class="cards__item">
             <img
-              class="card__image"
+              class="cards__image"
               src="./images/cards-question.png"
               alt="Вопросы">
-            <h3 class="card__title">Вопросы</h3>
-            <p class="card__description">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">
               Слушая преподавателя, придумывайте хороший вопрос, который вас
               действительно волнует.
             </p>
           </li>
-          <li class="card__item">
+          <li class="cards__item">
             <img
-              class="card__image"
+              class="cards__image"
               src="./images/cards-competence.png"
               alt="Иллюзия компетентности">
-            <h3 class="card__title">Иллюзия компетентности</h3>
-            <p class="card__description">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">
               Повторите про себя, запишите, расскажите другу: вам только
               кажется, что вы владеете новой темой.
             </p>
@@ -145,7 +145,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее →</a>
+        <a class="feynman__link" href="#">Подробнее &rarr;</a>
         <img class="feynman__png" src="./images/feynman.png" alt="Фэйман">
       </section>
       <section class="digits">
@@ -198,8 +198,7 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <div class="khan__author">
-            Салман Хан
+          <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир — школа</h2>
             <p class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
@@ -210,7 +209,6 @@
             </p>
             <h3 class="khan__quote-author">Джордж Лукас</h3>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
-          </div>
           <div class="khan__book-container">
             <img
               class="khan__book-pic"
@@ -289,37 +287,36 @@
             </p>
           </li>
         </ul>
-        <div class="kaufman__triangle">
-          <img src="images/kaufman-triangle.svg" alt="треугольник">
-        </div>
+          <div class="rotation kaufman__triangle"></div>
+          <!-- я весь инет облазил, вообще понятия не имею почему не видит изображение, хелп -->
       </section>
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
-        <div class="resources__logo-zone">
+        <div class="resources__link">
           <a href="#">
             <img
-              class="resources__link"
+              class="resources__logo-zone"
               src="images/resources-arzamas.svg"
               alt="арзамас">
           </a>
           <a href="#">
             <img
-              class="resources__link"
+              class="resources__logo-zone"
               src="images/resources-n1.svg"
               alt="н+1">
           </a>
           <a href="#">
             <img
-              class="resources__link"
+              class="resources__logo-zone"
               src="images/resources-strelka.svg"
               alt="стрелка">
           </a>
           <a href="#">
             <img
-              class="resources__link"
+              class="resources__logo-zone"
               src="images/resources-polka.svg"
               alt="полка">
           </a>
@@ -347,7 +344,7 @@
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
             <li>
-              <a href="#" class="footer__column-link" target="blank">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img
                   class="footer__social-icon"
                   src="./images/facebook_color_white.svg"
@@ -356,7 +353,7 @@
               >
             </li>
             <li>
-              <a href="#" class="footer__column-link" target="blank">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img
                   src="./images/vk_color_white.svg"
                   class="footer__social-icon"
@@ -365,7 +362,7 @@
               >
             </li>
             <li>
-              <a href="#" class="footer__column-link" target="blank">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img
                   src="./images/instagram_color_white.svg"
                   class="footer__social-icon"
