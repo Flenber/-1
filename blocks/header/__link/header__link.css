@@ -3,12 +3,6 @@
   text-decoration: none;
   z-index: 2;
   margin: 0;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: normal;
-  left: 70px;
-  max-width: 388px;
-  position: absolute;
   transition: transform 1s ease-out;
 }
 
